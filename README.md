@@ -1,8 +1,8 @@
 # CDC-United-States-Total-Yearly-Deaths-Visualized
-This script uses pandas/numpy/matplotlib to collect, organize, process and display a large data set
-Author: Dan Wallace
-Date: 09/29/2020
-Website: www.brick.technology
+### This script uses pandas/numpy/matplotlib to collect, organize, process and display a large data set
+### Author: Dan Wallace
+### Date: 09/29/2020
+### Website: www.brick.technology
 
 This script uses python and requires the following libraries:
 - Pandas

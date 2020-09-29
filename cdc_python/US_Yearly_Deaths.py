@@ -16,7 +16,7 @@ from matplotlib import style # In the matplotlib library, import style
 # Paste csv file path here
 #-------------------------------------------------
 
-path = 'C:/Users/Dan/Documents/cdcData/updatadata.csv'
+path = 'cdc_python/cdc_example_data.csv'
 
 #-------------------------------------------------
 # Create dataFrame

@@ -16,7 +16,7 @@ from matplotlib import style # In the matplotlib library, import style
 # Paste csv file path here
 #-------------------------------------------------
 
-path = 'cdc_python/cdc_example_data.csv'
+path = 'cdc_python/Weekly_Counts_of_Deaths_by_Jurisdiction_and_Age.csv'
 
 #-------------------------------------------------
 # Create dataFrame
@@ -65,7 +65,7 @@ mpl.rc('lines', linewidth=3)                                                    
                                   
 ct_deaths.plot(label='Number of Deaths').grid(color='lightgrey', linestyle='solid')                                     # Plots the Number of deaths to the graph
 
-plt.title('United States 2015-2020: Total Deaths by Week \n (All Age Groups Through First 15 Weeks)', fontsize=14)
+plt.title('United States 2015-2021: Total Deaths by Week \n (All Age Groups Through First 30 Weeks)', fontsize=14)
 plt.ylabel('Number of Deaths', fontsize=13)                                                                             # Changes the y-axis label to 'Number of Deaths'
 plt.xlabel('Week', fontsize=13)                                                                                         # Changes the x-axis label to 'Deaths Reported by Week'
 plt.subplot(111).set_xlim(1, 30)
